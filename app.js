@@ -1,6 +1,3 @@
-document.head.innerHTML += '<script src="prism.js"></script>';
-document.head.innerHTML += '<link rel="stylesheet" src="prism.css" />';
-
 var pres = document.getElementsByTagName("pre");
 
 String.prototype.replaceAll = function(search, replacement) {
