@@ -1,0 +1,22 @@
+html,
+body {
+  padding: 0;
+  margin: 10px;
+  width: 350px;
+  height: 175px;
+  font-family: Avenir Next;
+}
+
+*:focus {
+  outline: none;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+h1 {
+  color: #9ca8b4;
+}
+
+h1 span {
+  color: #1dd1a1;
+}

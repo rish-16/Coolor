@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Coolor",
+  "description": "Syntax highlighting for Medium code snippets.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["prism.js", "app.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
